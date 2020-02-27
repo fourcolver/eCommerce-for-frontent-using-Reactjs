@@ -1,0 +1,24 @@
+@import "../../assets/scss/mixins";
+
+.c_preview {
+  width: 100%;
+  table {
+    width: 100%;
+    th{
+      text-align: center;
+    }
+    tr {
+      border-top: 1px $gray-border solid;
+      padding: 20px 0;
+      td {
+        padding: 5px;
+      }
+
+    }
+  }
+  &__variant {
+      width: 300px;
+      max-width: 300px!important;
+    }
+
+}
